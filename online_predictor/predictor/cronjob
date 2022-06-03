@@ -1,0 +1,1 @@
+* * * * *   root /usr/local/bin/python3.8 /app/predictionApp.py -c /app/tasks_pnos.json > ok.log 2> err.log
