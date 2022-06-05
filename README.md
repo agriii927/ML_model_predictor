@@ -23,3 +23,12 @@ docker load < perm_predictor.tar
 
 docker-compose -f docker-compose-from-loaded-images.yaml up -d
 ```
+## To stop and delete all the system
+```bash
+docker-compose -f docker-compose-from-loaded-images.yaml down
+```
+or
+```bash
+docker-compose down
+```
+(depends on Dockerfile)
